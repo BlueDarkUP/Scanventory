@@ -1,0 +1,12 @@
+<resources>
+
+<string name="app_name">BBMG-AssetManager</string>
+
+<!--
+  【这是必须添加的行】
+  这是ZXing扫描库的默认提示信息。
+  我们在自定义的扫描布局文件中引用了它，所以必须在这里定义。
+  如果缺少这行，启动扫描时会因为找不到资源而闪退。
+-->
+<string name="zxing_msg_default_status">请将二维码/条形码置于取景框内以进行扫描</string>
+</resources>
